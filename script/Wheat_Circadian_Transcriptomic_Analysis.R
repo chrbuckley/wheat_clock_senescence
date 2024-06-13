@@ -1,3 +1,14 @@
+#################################################################################
+######### Analyses of wheat senescence circadian transcriptomic dataset #########
+#################################################################################
+
+#####Introduction#####
+
+#This script reproduces analyses and figures from Buckley et al., 2024
+
+#The script uses the outputs of circadian transcript rhythm algorithms BIO_CYCLE and MetaCycle
+#Please see methodology description within the journal article for further details
+
 #####Loading BIO_CYCLE and MetaCycle data and filtering#####
 
 #setwd("~/Wheat_Circadian_Transcriptomic_Analysis/")
