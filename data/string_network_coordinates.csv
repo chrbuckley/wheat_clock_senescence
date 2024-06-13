@@ -1,0 +1,86 @@
+node,identifier,x_position,y_position,color,annotation
+TOC-A1,4565.Traes_6AL_A0A31AA9F.1,0.421922474549726,0.33397157816006,"rgb(117,239,218)",Timing of cab expression 1
+TOE1-B1,4565.Traes_1BS_E68807072.2,0.416483946750196,0.091062079281975,"rgb(187,255,101)",Target of EAT1-B1
+Traes_1AL_0C41C44B1.1,4565.Traes_1AL_0C41C44B1.1,0.415074393108849,0.627561705310396,"rgb(255,0,0)",Uncharacterized protein
+Traes_1AL_2F1278623.1,4565.Traes_1AL_2F1278623.1,0.30301487862177,0.297718773373224,"rgb(255,175,101)",RNA polymerase sigma factor; Sigma factors are initiation factors that promote the attachment of plastid-encoded RNA polymerase (PEP) to specific initiation sites and are then released
+Traes_1BL_A7A6C5DB1.1,4565.Traes_1BL_A7A6C5DB1.1,0.444408770555991,0.562169035153329,"rgb(178,171,0)",Uncharacterized protein
+Traes_1DL_37EA23493.1,4565.Traes_1DL_37EA23493.1,0.361378230227095,0.591114435302917,"rgb(14,178,0)",Uncharacterized protein
+Traes_1DL_F23E9DAA9.1,4565.Traes_1DL_F23E9DAA9.1,0.338253719655442,0.231750186985789,"rgb(101,255,163)",RNA polymerase sigma factor; Sigma factors are initiation factors that promote the attachment of plastid-encoded RNA polymerase (PEP) to specific initiation sites and are then released
+Traes_1DS_2BB06F54C.1,4565.Traes_1DS_2BB06F54C.1,0.495418950665622,0.125392670157068,"rgb(0,178,157)",Uncharacterized protein
+Traes_2AL_0E3F538E0.1,4565.Traes_2AL_0E3F538E0.1,0.673727486296006,0.376477187733732,"rgb(101,199,255)",Uncharacterized protein
+Traes_2AL_436D234EE.1,4565.Traes_2AL_436D234EE.1,0.065505090054816,0.217614061331339,"rgb(0,28,178)",Tubby-like F-box protein ; Belongs to the TUB family
+Traes_2AL_5FF7D6940.1,4565.Traes_2AL_5FF7D6940.1,0.549572435395458,0.654390426327599,"rgb(150,101,255)","Zeaxanthin epoxidase, chloroplastic; Converts zeaxanthin into antheraxanthin and subsequently violaxanthin"
+Traes_2AL_892B4448E.2,4565.Traes_2AL_892B4448E.2,0.568715740015662,0.179244577412117,"rgb(239,117,117)",Bhlh domain-containing protein; Uncharacterized protein
+Traes_2AL_BFB0C6D4C.1,4565.Traes_2AL_BFB0C6D4C.1,0.821025841816758,0.494278234854151,"rgb(239,124,117)",Homeobox domain-containing protein; Uncharacterized protein
+Traes_2AS_0186B9E4F.2,4565.Traes_2AS_0186B9E4F.2,0.36221613155834,0.702954375467465,"rgb(239,131,117)",Uncharacterized protein
+Traes_2AS_53BFA14C7.2,4565.Traes_2AS_53BFA14C7.2,0.759005481597494,0.445138369483919,"rgb(239,138,117)",Hsf_domain domain-containing protein; Uncharacterized protein
+Traes_2AS_6C2F49AE0.1,4565.Traes_2AS_6C2F49AE0.1,0.668794048551292,0.604001495886313,"rgb(239,144,117)",Uncharacterized protein
+Traes_2BL_047344CB6.1,4565.Traes_2BL_047344CB6.1,0.464408770555991,0.680740463724757,"rgb(239,151,117)","Zeaxanthin epoxidase, chloroplastic; Converts zeaxanthin into antheraxanthin and subsequently violaxanthin"
+Traes_2BL_070D9E2AD.2,4565.Traes_2BL_070D9E2AD.2,0.102153484729836,0.622176514584892,"rgb(239,158,117)",Uncharacterized protein
+Traes_2BL_181C4AA28.1,4565.Traes_2BL_181C4AA28.1,0.312176977290525,0.083657442034405,"rgb(239,165,117)",Tubby-like F-box protein ; Belongs to the TUB family
+Traes_2BL_3041037F1.1,4565.Traes_2BL_3041037F1.1,0.194479248238058,0.496297681376215,"rgb(239,172,117)",Uncharacterized protein
+Traes_2BL_FE46FC938.1,4565.Traes_2BL_FE46FC938.1,0.597611589663273,0.579768137621541,"rgb(239,179,117)",Uncharacterized protein; TaAP2-B
+Traes_2BS_1484A7516.1,4565.Traes_2BS_1484A7516.1,0.768167580266249,0.385228122662678,"rgb(239,186,117)",Uncharacterized protein
+Traes_2BS_2CA9DB5DE.2,4565.Traes_2BS_2CA9DB5DE.2,0.288214565387627,0.36301421091997,"rgb(239,193,117)",Response regulatory domain-containing protein; Uncharacterized protein
+Traes_2BS_6859C24E5.1,4565.Traes_2BS_6859C24E5.1,0.759710258418168,0.617464472700075,"rgb(239,200,117)",Uncharacterized protein
+Traes_2DL_31EED5C94.1,4565.Traes_2DL_31EED5C94.1,0.298653093187157,0.497643979057592,"rgb(239,207,117)",Uncharacterized protein
+Traes_2DL_64EAA3388.1,4565.Traes_2DL_64EAA3388.1,0.756891151135474,0.67602842183994,"rgb(239,214,117)",Uncharacterized protein
+Traes_2DL_79449BF6D.2,4565.Traes_2DL_79449BF6D.2,0.20505090054816,0.144240837696335,"rgb(239,220,117)",Uncharacterized protein
+Traes_2DL_7CA58B54E.1,4565.Traes_2DL_7CA58B54E.1,0.756891151135474,0.729880329094989,"rgb(239,227,117)",Uncharacterized protein
+Traes_2DL_A84C58DC2.1,4565.Traes_2DL_A84C58DC2.1,0.575763508222396,0.255310396409873,"rgb(239,234,117)",Bhlh domain-containing protein; Uncharacterized protein
+Traes_2DL_AE9C5933A.1,4565.Traes_2DL_AE9C5933A.1,0.501761942051684,0.754113687359761,"rgb(237,239,117)","Zeaxanthin epoxidase, chloroplastic; Uncharacterized protein"
+Traes_2DS_9F6EA1670.1,4565.Traes_2DS_9F6EA1670.1,0.744205168363352,0.546110695587135,"rgb(230,239,117)",Dof-type domain-containing protein; Uncharacterized protein
+Traes_3AL_D2BD92865.2,4565.Traes_3AL_D2BD92865.2,0.883750978856695,0.527262528047868,"rgb(223,239,117)",Uncharacterized protein
+Traes_3AS_4C4673A12.1,4565.Traes_3AS_4C4673A12.1,0.238175411119812,0.698915482423336,"rgb(216,239,117)",Dof-type domain-containing protein; Uncharacterized protein
+Traes_3AS_4DF357170.1,4565.Traes_3AS_4DF357170.1,0.730814408770556,0.126738967838444,"rgb(210,239,117)",Hth myb-type domain-containing protein; Uncharacterized protein
+Traes_3B_5BE5A6676.1,4565.Traes_3B_5BE5A6676.1,0.737862176977291,0.201458489154824,"rgb(196,239,117)",Hsf_domain domain-containing protein; Uncharacterized protein
+Traes_3B_73F22ECC6.1,4565.Traes_3B_73F22ECC6.1,0.814682850430697,0.091735228122663,"rgb(189,239,117)","WRKY transcription factor, putative, expressed"
+Traes_3B_910AC7944.2,4565.Traes_3B_910AC7944.2,0.718128425998434,0.295699326851159,"rgb(182,239,117)",Btb domain-containing protein; Uncharacterized protein
+Traes_3B_AD433AE06.2,4565.Traes_3B_AD433AE06.2,0.357987470634299,0.669970082273747,"rgb(175,239,117)",Dof-type domain-containing protein; Uncharacterized protein
+Traes_3B_B45238368.1,4565.Traes_3B_B45238368.1,0.79283476898982,0.175205684367988,"rgb(168,239,117)",Uncharacterized protein
+Traes_3B_F227310FD.1,4565.Traes_3B_F227310FD.1,0.403359436178543,0.27092894540015,"rgb(161,239,117)",Hth myb-type domain-containing protein; Uncharacterized protein
+Traes_3DL_2E5A96ACF.1,4565.Traes_3DL_2E5A96ACF.1,0.902779953014879,0.631600598354525,"rgb(154,239,117)",Uncharacterized protein
+Traes_3DS_29943C262.1,4565.Traes_3DS_29943C262.1,0.377721221613156,0.748055347793568,"rgb(147,239,117)",Dof-type domain-containing protein; Uncharacterized protein
+Traes_4AL_607DC5FB9.1,4565.Traes_4AL_607DC5FB9.1,0.209984338292874,0.225691847419596,"rgb(140,239,117)",Fha domain-containing protein; Uncharacterized protein
+Traes_4BL_097D9E8A8.1,4565.Traes_4BL_097D9E8A8.1,0.608183241973375,0.72584143605086,"rgb(134,239,117)",Dof-type domain-containing protein; Uncharacterized protein
+Traes_4BL_430501C10.2,4565.Traes_4BL_430501C10.2,0.420712607674237,0.418212415856395,"rgb(127,239,117)",Uncharacterized protein
+Traes_4BL_7E9BC637F.1,4565.Traes_4BL_7E9BC637F.1,0.914761158966327,0.343492894540015,"rgb(120,239,117)",Uncharacterized protein; Belongs to the TUB family
+Traes_4BS_3A6977062.1,4565.Traes_4BS_3A6977062.1,0.785082223962412,0.2990650710546,"rgb(117,239,121)",Uncharacterized protein
+Traes_4BS_4BCA03A6C.1,4565.Traes_4BS_4BCA03A6C.1,0.442560689115114,0.200112191473448,"rgb(117,239,128)",Uncharacterized protein
+Traes_4BS_69348DCA4.1,4565.Traes_4BS_69348DCA4.1,0.288919342208301,0.152318623784592,"rgb(117,239,135)",Fha domain-containing protein; Uncharacterized protein
+Traes_4DL_CFA19981D.2,4565.Traes_4DL_CFA19981D.2,0.688527799530149,0.690164547494391,"rgb(117,239,142)",Uncharacterized protein
+Traes_4DL_EE41726EA.1,4565.Traes_4DL_EE41726EA.1,0.536296006264683,0.398115183246073,"rgb(117,239,148)",Uncharacterized protein
+Traes_4DS_A8B6C23C4.1,4565.Traes_4DS_A8B6C23C4.1,0.49894283476899,0.271465968586387,"rgb(117,239,155)",Uncharacterized protein
+Traes_5AL_852A1474C.1,4565.Traes_5AL_852A1474C.1,0.621574001566171,0.428309648466716,"rgb(117,239,162)",Uncharacterized protein
+Traes_5AL_85F3BE385.2,4565.Traes_5AL_85F3BE385.2,0.61734534064213,0.30983545250561,"rgb(117,239,169)",Bhlh domain-containing protein; Uncharacterized protein
+Traes_5BL_417551368.2,4565.Traes_5BL_417551368.2,0.694166014095536,0.47341062079282,"rgb(117,239,176)",Uncharacterized protein
+Traes_5BL_E15759DAD.1,4565.Traes_5BL_E15759DAD.1,0.804111198120595,0.305796559461481,"rgb(117,239,183)",Hsf_domain domain-containing protein; Uncharacterized protein
+Traes_5DL_1F0881CE1.1,4565.Traes_5DL_1F0881CE1.1,0.699099451840251,0.919708302169035,"rgb(117,239,197)",Uncharacterized protein
+Traes_5DL_8CE2482E6.2,4565.Traes_5DL_8CE2482E6.2,0.629326546593579,0.513799551234106,"rgb(117,239,204)",Uncharacterized protein
+Traes_6AL_36AB0312C.1,4565.Traes_6AL_36AB0312C.1,0.71530931871574,0.810658189977562,"rgb(117,239,211)",Homeobox domain-containing protein; Uncharacterized protein
+Traes_6AL_CE4E76E1A.1,4565.Traes_6AL_CE4E76E1A.1,0.418598277212216,0.756806282722513,"rgb(117,239,225)",Uncharacterized protein
+Traes_6AL_D0A0EA437.2,4565.Traes_6AL_D0A0EA437.2,0.305833985904464,0.756806282722513,"rgb(117,239,231)",Uncharacterized protein
+Traes_6AL_FDD9C080B.1,4565.Traes_6AL_FDD9C080B.1,0.30512920908379,0.570344053851907,"rgb(117,239,238)",Hth myb-type domain-containing protein; Uncharacterized protein
+Traes_6BL_7E9C131F4.2,4565.Traes_6BL_7E9C131F4.2,0.547572435395458,0.331512341062079,"rgb(117,233,239)",Uncharacterized protein
+Traes_6BL_8E27002C6.2,4565.Traes_6BL_8E27002C6.2,0.220555990602976,0.572363500373972,"rgb(117,226,239)",Uncharacterized protein
+Traes_6BL_ED40C8806.1,4565.Traes_6BL_ED40C8806.1,0.359854346123727,0.381189229618549,"rgb(117,219,239)",Uncharacterized protein; Timing of cab expression 1
+Traes_6DL_2BAA4B7AA.1,4565.Traes_6DL_2BAA4B7AA.1,0.277642913077525,0.352916978309648,"rgb(117,212,239)",Uncharacterized protein
+Traes_6DL_6A7EFC4661.2,4565.Traes_6DL_6A7EFC4661.2,0.81327329678935,0.783732236350038,"rgb(117,206,239)",Uncharacterized protein
+Traes_6DL_C215BACFD.1,4565.Traes_6DL_C215BACFD.1,0.471456538762725,0.372438294689604,"rgb(117,199,239)",Uncharacterized protein
+Traes_6DL_FF4C8C4AB.1,4565.Traes_6DL_FF4C8C4AB.1,0.613116679718089,0.849700822737472,"rgb(117,192,239)",Uncharacterized protein
+Traes_7AL_19F222799.2,4565.Traes_7AL_19F222799.2,0.54270555990603,0.524877337322364,"rgb(117,185,239)",Hth myb-type domain-containing protein; Uncharacterized protein
+Traes_7AL_665B92F4E.1,4565.Traes_7AL_665B92F4E.1,0.508809710258418,0.594577412116679,"rgb(117,178,239)",Hth myb-type domain-containing protein; Uncharacterized protein
+Traes_7AS_4FAB72487.2,4565.Traes_7AS_4FAB72487.2,0.075371965544244,0.540725504861631,"rgb(117,171,239)",Uncharacterized protein
+Traes_7AS_B2DC3787B.1,4565.Traes_7AS_B2DC3787B.1,0.143735317149569,0.369745699326851,"rgb(117,164,239)",Uncharacterized protein
+Traes_7AS_C9DF68E53.2,4565.Traes_7AS_C9DF68E53.2,0.559553641346907,0.773732236350038,"rgb(117,157,239)",Wrky domain-containing protein; Uncharacterized protein
+Traes_7BL_998EC9F74.2,4565.Traes_7BL_998EC9F74.2,0.520524667188724,0.463986537023186,"rgb(117,150,239)",Hth myb-type domain-containing protein; Uncharacterized protein
+Traes_7BL_BA181D2AD.2,4565.Traes_7BL_BA181D2AD.2,0.358692247454973,0.461293941660434,"rgb(117,143,239)",Uncharacterized protein
+Traes_7BS_39A9F4AEC.2,4565.Traes_7BS_39A9F4AEC.2,0.250861393891934,0.424943904263276,"rgb(117,136,239)",Uncharacterized protein
+Traes_7BS_673360C6B.1,4565.Traes_7BS_673360C6B.1,0.658927173061864,0.104525056095737,"rgb(117,129,239)",Uncharacterized protein
+Traes_7DL_1D415A4CF.2,4565.Traes_7DL_1D415A4CF.2,0.391111981205951,0.521877337322364,"rgb(117,123,239)",Hth myb-type domain-containing protein; Uncharacterized protein
+Traes_7DL_310E46F15.3,4565.Traes_7DL_310E46F15.3,0.455951448707909,0.482064323111444,"rgb(117,117,239)",Hth myb-type domain-containing protein; Uncharacterized protein
+Traes_7DS_9B463F375.2,4565.Traes_7DS_9B463F375.2,0.22337509788567,0.322625280478684,"rgb(117,117,239)",Uncharacterized protein
+Traes_7DS_B671A4EAD.1,4565.Traes_7DS_B671A4EAD.1,0.057047768206735,0.472064323111444,"rgb(117,117,239)",Bhlh domain-containing protein; Uncharacterized protein
+Traes_7DS_C370D6DF8.1,4565.Traes_7DS_C370D6DF8.1,0.249451840250587,0.702954375467465,"rgb(117,117,239)",Dof-type domain-containing protein; Uncharacterized protein
+bHLH39,4565.Traes_5DL_026913547.1,0.650469851213782,0.25261780104712,"rgb(117,239,190)",Stress-responsive bHLH transcription factor
+gid2-A1,4565.Traes_3AS_794DAF12D.1,0.432693813625685,0.842969334330591,"rgb(203,239,117)",Uncharacterized protein; GID2 protein isoform 1

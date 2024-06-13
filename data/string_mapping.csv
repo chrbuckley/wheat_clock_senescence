@@ -1,0 +1,93 @@
+queryIndex,queryItem,stringId,identity,bitscore,preferredName,annotation
+1,TraesCS1D02G436500,Traes_1DL_37EA23493.1,100,322.4,Traes_1DL_37EA23493.1,Uncharacterized protein
+2,TraesCS1D02G059200,Traes_1DS_2BB06F54C.1,100,654.8,Traes_1DS_2BB06F54C.1,Uncharacterized protein
+3,TraesCS1B02G076300,Traes_1BS_E68807072.2,100,643.7,TOE1-B1,Target of EAT1-B1
+4,TraesCS1B02G461600,Traes_1BL_A7A6C5DB1.1,100,294.3,Traes_1BL_A7A6C5DB1.1,Uncharacterized protein
+5,TraesCS1A02G431600,Traes_1AL_2F1278623.1,91.6,890.2,Traes_1AL_2F1278623.1,RNA polymerase sigma factor; Sigma factors are initiation factors that promote the attachment of plastid-encoded RNA polymerase (PEP) to specific initiation sites and are then released
+6,TraesCS1D02G440900,Traes_1DL_F23E9DAA9.1,100,1098.6,Traes_1DL_F23E9DAA9.1,RNA polymerase sigma factor; Sigma factors are initiation factors that promote the attachment of plastid-encoded RNA polymerase (PEP) to specific initiation sites and are then released
+7,TraesCS4B02G286400,Traes_4BL_097D9E8A8.1,95.9,830.5,Traes_4BL_097D9E8A8.1,Dof-type domain-containing protein; Uncharacterized protein
+8,TraesCS4D02G199600,Traes_4DL_EE41726EA.1,100,1332.8,Traes_4DL_EE41726EA.1,Uncharacterized protein
+9,TraesCS3D02G185500,Traes_3DS_29943C262.1,100,804.3,Traes_3DS_29943C262.1,Dof-type domain-containing protein; Uncharacterized protein
+10,TraesCS5D02G428400,Traes_5AL_85F3BE385.2,97.7,335.9,Traes_5AL_85F3BE385.2,Bhlh domain-containing protein; Uncharacterized protein
+11,TraesCS4D02G112800,Traes_4DS_A8B6C23C4.1,100,1206,Traes_4DS_A8B6C23C4.1,Uncharacterized protein
+12,TraesCS3B02G448000,Traes_3B_910AC7944.2,86.9,596.7,Traes_3B_910AC7944.2,Btb domain-containing protein; Uncharacterized protein
+13,TraesCS5D02G149400,Traes_5DL_1F0881CE1.1,100,195.7,Traes_5DL_1F0881CE1.1,Uncharacterized protein
+14,TraesCS3B02G210300,Traes_3B_AD433AE06.2,100,727.6,Traes_3B_AD433AE06.2,Dof-type domain-containing protein; Uncharacterized protein
+16,TraesCS6A02G227900,Traes_6AL_A0A31AA9F.1,100,1016.9,TOC-A1,Timing of cab expression 1
+17,TraesCS5B02G422000,Traes_5AL_85F3BE385.2,94.7,327.8,Traes_5AL_85F3BE385.2,Bhlh domain-containing protein; Uncharacterized protein
+18,TraesCS4D02G285100,Traes_4DL_CFA19981D.2,99.3,850.5,Traes_4DL_CFA19981D.2,Uncharacterized protein
+19,TraesCS5B02G556200,Traes_5BL_E15759DAD.1,100,909.8,Traes_5BL_E15759DAD.1,Hsf_domain domain-containing protein; Uncharacterized protein
+20,TraesCS2A02G204500,Traes_2AS_53BFA14C7.2,97.3,911.4,Traes_2AS_53BFA14C7.2,Hsf_domain domain-containing protein; Uncharacterized protein
+21,TraesCS5A02G320300,Traes_5AL_852A1474C.1,100,875.5,Traes_5AL_852A1474C.1,Uncharacterized protein
+22,TraesCS3A02G180600,Traes_3AS_4C4673A12.1,100,757.3,Traes_3AS_4C4673A12.1,Dof-type domain-containing protein; Uncharacterized protein
+23,TraesCS5A02G376500,Traes_5DL_026913547.1,94.1,698,bHLH39,Stress-responsive bHLH transcription factor
+24,TraesCS3A02G056000,Traes_3AS_794DAF12D.1,100,210.3,gid2-A1,Uncharacterized protein; GID2 protein isoform 1
+25,TraesCS3D02G355500,Traes_3B_F227310FD.1,100,191.4,Traes_3B_F227310FD.1,Hth myb-type domain-containing protein; Uncharacterized protein
+26,TraesCS5A02G423600,Traes_4BS_3A6977062.1,100,69.7,Traes_4BS_3A6977062.1,Uncharacterized protein
+27,TraesCS7B02G120600,Traes_7DS_C370D6DF8.1,95.2,191.8,Traes_7DS_C370D6DF8.1,Dof-type domain-containing protein; Uncharacterized protein
+28,TraesCS6D02G272000,Traes_6DL_FF4C8C4AB.1,90.9,493,Traes_6DL_FF4C8C4AB.1,Uncharacterized protein
+29,TraesCS2A02G182700,Traes_2AS_0186B9E4F.2,100,762.3,Traes_2AS_0186B9E4F.2,Uncharacterized protein
+30,TraesCS7A02G245800,Traes_7AS_4FAB72487.2,97.7,240.4,Traes_7AS_4FAB72487.2,Uncharacterized protein
+31,TraesCS6D02G268400,Traes_6DL_6A7EFC4661.2,100,379.4,Traes_6DL_6A7EFC4661.2,Uncharacterized protein
+32,TraesCS7B02G125500,Traes_7BS_39A9F4AEC.2,100,572.8,Traes_7BS_39A9F4AEC.2,Uncharacterized protein
+33,TraesCS7B02G113400,Traes_7BS_673360C6B.1,100,98.6,Traes_7BS_673360C6B.1,Uncharacterized protein
+34,TraesCS7D02G220300,Traes_7DS_9B463F375.2,100,686.8,Traes_7DS_9B463F375.2,Uncharacterized protein
+35,TraesCS6B02G288500,Traes_6BL_8E27002C6.2,99.6,453.4,Traes_6BL_8E27002C6.2,Uncharacterized protein
+36,TraesCS7D02G295400,Traes_7DL_310E46F15.3,99.6,1376.7,Traes_7DL_310E46F15.3,Hth myb-type domain-containing protein; Uncharacterized protein
+37,TraesCS6D02G283900,Traes_6AL_D0A0EA437.2,90.3,667.9,Traes_6AL_D0A0EA437.2,Uncharacterized protein
+38,TraesCS7D02G540700,Traes_7DL_1D415A4CF.2,99.7,595.9,Traes_7DL_1D415A4CF.2,Hth myb-type domain-containing protein; Uncharacterized protein
+39,TraesCS6D02G207100,Traes_6DL_C215BACFD.1,100,981.1,Traes_6DL_C215BACFD.1,Uncharacterized protein
+40,TraesCS7B02G188000,Traes_7BL_998EC9F74.2,99.7,1365.1,Traes_7BL_998EC9F74.2,Hth myb-type domain-containing protein; Uncharacterized protein
+43,TraesCS7A02G299400,Traes_7AL_19F222799.2,100,1145.6,Traes_7AL_19F222799.2,Hth myb-type domain-containing protein; Uncharacterized protein
+44,TraesCS6D02G285400,Traes_6DL_2BAA4B7AA.1,99.2,726.1,Traes_6DL_2BAA4B7AA.1,Uncharacterized protein
+45,TraesCS1A02G426700,Traes_1AL_0C41C44B1.1,100,603.6,Traes_1AL_0C41C44B1.1,Uncharacterized protein
+46,TraesCS7D02G244300,Traes_7DS_B671A4EAD.1,100,261.9,Traes_7DS_B671A4EAD.1,Bhlh domain-containing protein; Uncharacterized protein
+47,TraesCSU02G196100,Traes_2BS_2CA9DB5DE.2,99.7,532.7,Traes_2BS_2CA9DB5DE.2,Response regulatory domain-containing protein; Uncharacterized protein
+48,TraesCS7A02G213400,Traes_7DS_C370D6DF8.1,88.6,184.1,Traes_7DS_C370D6DF8.1,Dof-type domain-containing protein; Uncharacterized protein
+49,TraesCS7B02G478200,Traes_7BL_BA181D2AD.2,100,473.8,Traes_7BL_BA181D2AD.2,Uncharacterized protein
+50,TraesCS6B02G253900,Traes_6BL_ED40C8806.1,100,974.2,Traes_6BL_ED40C8806.1,Uncharacterized protein; Timing of cab expression 1
+51,TraesCS7A02G218600,Traes_7AS_B2DC3787B.1,99.7,680.2,Traes_7AS_B2DC3787B.1,Uncharacterized protein
+52,TraesCS6B02G266800,Traes_6BL_7E9C131F4.2,98,400.6,Traes_6BL_7E9C131F4.2,Uncharacterized protein
+54,TraesCS7A02G096300,Traes_7AS_C9DF68E53.2,75.1,542.7,Traes_7AS_C9DF68E53.2,Wrky domain-containing protein; Uncharacterized protein
+55,TraesCS6D02G241900,Traes_6BL_8E27002C6.2,95.6,435.6,Traes_6BL_8E27002C6.2,Uncharacterized protein
+56,TraesCS7A02G553800,Traes_7AL_665B92F4E.1,100,749.6,Traes_7AL_665B92F4E.1,Hth myb-type domain-containing protein; Uncharacterized protein
+58,TraesCS2A02G317000,Traes_2AL_5FF7D6940.1,100,1318.5,Traes_2AL_5FF7D6940.1,"Zeaxanthin epoxidase, chloroplastic; Converts zeaxanthin into antheraxanthin and subsequently violaxanthin"
+59,TraesCS2A02G100800,Traes_2AS_6C2F49AE0.1,100,983,Traes_2AS_6C2F49AE0.1,Uncharacterized protein
+60,TraesCS2A02G253900,Traes_2AL_892B4448E.2,96.8,636.3,Traes_2AL_892B4448E.2,Bhlh domain-containing protein; Uncharacterized protein
+61,TraesCS2A02G574000,Traes_2AL_436D234EE.1,100,828.6,Traes_2AL_436D234EE.1,Tubby-like F-box protein ; Belongs to the TUB family
+62,TraesCS2B02G289700,Traes_2BL_070D9E2AD.2,100,386.3,Traes_2BL_070D9E2AD.2,Uncharacterized protein
+63,TraesCS2A02G353900,Traes_2AL_0E3F538E0.1,100,277.3,Traes_2AL_0E3F538E0.1,Uncharacterized protein
+64,TraesCS2D02G100300,Traes_2DS_9F6EA1670.1,100,980.7,Traes_2DS_9F6EA1670.1,Dof-type domain-containing protein; Uncharacterized protein
+65,TraesCS2B02G335400,Traes_2BL_047344CB6.1,89.8,1168.7,Traes_2BL_047344CB6.1,"Zeaxanthin epoxidase, chloroplastic; Converts zeaxanthin into antheraxanthin and subsequently violaxanthin"
+66,TraesCS2A02G389400,Traes_2AL_BFB0C6D4C.1,100,310.1,Traes_2AL_BFB0C6D4C.1,Homeobox domain-containing protein; Uncharacterized protein
+67,TraesCS2D02G351900,Traes_2DL_7CA58B54E.1,100,157.1,Traes_2DL_7CA58B54E.1,Uncharacterized protein
+68,TraesCS2D02G584900,Traes_2DL_79449BF6D.2,100,650.6,Traes_2DL_79449BF6D.2,Uncharacterized protein
+69,TraesCS2D02G515800,Traes_2BL_FE46FC938.1,89.8,457.2,Traes_2BL_FE46FC938.1,Uncharacterized protein; TaAP2-B
+70,TraesCS2B02G232000,Traes_2BS_1484A7516.1,100,675.6,Traes_2BS_1484A7516.1,Uncharacterized protein
+71,TraesCS2D02G259200,Traes_2DL_64EAA3388.1,99.4,597.8,Traes_2DL_64EAA3388.1,Uncharacterized protein
+72,TraesCS2D02G314900,Traes_2DL_AE9C5933A.1,97.3,1112.8,Traes_2DL_AE9C5933A.1,"Zeaxanthin epoxidase, chloroplastic; Uncharacterized protein"
+74,TraesCS2B02G613800,Traes_2BL_181C4AA28.1,100,819.3,Traes_2BL_181C4AA28.1,Tubby-like F-box protein ; Belongs to the TUB family
+75,TraesCS2B02G118000,Traes_2BS_6859C24E5.1,100,981.5,Traes_2BS_6859C24E5.1,Uncharacterized protein
+76,TraesCS2B02G478700,Traes_2BL_3041037F1.1,100,728.4,Traes_2BL_3041037F1.1,Uncharacterized protein
+77,TraesCS2D02G456900,Traes_2DL_31EED5C94.1,100,740,Traes_2DL_31EED5C94.1,Uncharacterized protein
+78,TraesCS2D02G254400,Traes_2DL_A84C58DC2.1,97,685.6,Traes_2DL_A84C58DC2.1,Bhlh domain-containing protein; Uncharacterized protein
+79,TraesCS3A02G423200,Traes_3AL_D2BD92865.2,98.1,500.4,Traes_3AL_D2BD92865.2,Uncharacterized protein
+80,TraesCS6A02G261100,Traes_6AL_FDD9C080B.1,99.6,437.2,Traes_6AL_FDD9C080B.1,Hth myb-type domain-containing protein; Uncharacterized protein
+81,TraesCS4B02G115100,Traes_4BS_4BCA03A6C.1,100,1201.8,Traes_4BS_4BCA03A6C.1,Uncharacterized protein
+82,TraesCS5B02G425900,Traes_4BS_3A6977062.1,100,69.7,Traes_4BS_3A6977062.1,Uncharacterized protein
+83,TraesCS6A02G306300,Traes_6AL_CE4E76E1A.1,100,726.1,Traes_6AL_CE4E76E1A.1,Uncharacterized protein
+84,TraesCS6A02G290800,Traes_6AL_36AB0312C.1,100,467.6,Traes_6AL_36AB0312C.1,Homeobox domain-containing protein; Uncharacterized protein
+85,TraesCS3B02G314600,Traes_3B_5BE5A6676.1,100,424.9,Traes_3B_5BE5A6676.1,Hsf_domain domain-containing protein; Uncharacterized protein
+88,TraesCS4A02G190400,Traes_4AL_607DC5FB9.1,94.4,328.6,Traes_4AL_607DC5FB9.1,Fha domain-containing protein; Uncharacterized protein
+89,TraesCS4B02G166400,Traes_4BL_7E9BC637F.1,100,823.2,Traes_4BL_7E9BC637F.1,Uncharacterized protein; Belongs to the TUB family
+90,TraesCS5B02G320500,Traes_5BL_417551368.2,100,750.7,Traes_5BL_417551368.2,Uncharacterized protein
+91,TraesCS4B02G198700,Traes_4BL_430501C10.2,100,1289.6,Traes_4BL_430501C10.2,Uncharacterized protein
+92,TraesCS3D02G408000,Traes_3B_910AC7944.2,93.1,620.9,Traes_3B_910AC7944.2,Btb domain-containing protein; Uncharacterized protein
+93,TraesCS3A02G289700,Traes_3B_73F22ECC6.1,88.8,460.7,Traes_3B_73F22ECC6.1,"WRKY transcription factor, putative, expressed"
+94,TraesCS3A02G107000,Traes_3AS_4DF357170.1,100,178.3,Traes_3AS_4DF357170.1,Hth myb-type domain-containing protein; Uncharacterized protein
+95,TraesCS3B02G594300,Traes_3B_F227310FD.1,78.2,93.2,Traes_3B_F227310FD.1,Hth myb-type domain-containing protein; Uncharacterized protein
+96,TraesCS5D02G326200,Traes_5DL_8CE2482E6.2,100,956.8,Traes_5DL_8CE2482E6.2,Uncharacterized protein
+97,TraesCS3B02G125500,Traes_3B_B45238368.1,100,468.8,Traes_3B_B45238368.1,Uncharacterized protein
+98,TraesCS5A02G420200,Traes_5AL_85F3BE385.2,99.2,266.9,Traes_5AL_85F3BE385.2,Bhlh domain-containing protein; Uncharacterized protein
+99,TraesCS3D02G418400,Traes_3DL_2E5A96ACF.1,73.5,370.9,Traes_3DL_2E5A96ACF.1,Uncharacterized protein
+101,TraesCS4B02G129700,Traes_4BS_69348DCA4.1,97.1,379,Traes_4BS_69348DCA4.1,Fha domain-containing protein; Uncharacterized protein
