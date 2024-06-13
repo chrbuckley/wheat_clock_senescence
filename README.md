@@ -1,6 +1,6 @@
 # Circadian influence on senescence and nutrition in wheat
 
-Code and data repository for computational analysis of transcriptomic data
+Code and data repository for computational analysis of wheat senescence circadian transcriptomic data
 
 Link to article: [Buckley et al., 2024](https://doi.org/10.1101/2024.02.19.580927)
 
