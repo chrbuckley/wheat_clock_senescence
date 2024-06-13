@@ -11,4 +11,4 @@ Chris Buckley ([ORCID: 0000-0002-4095-2300](https://orcid.org/my-orcid?orcid=000
 - This repository contains all R code and data files required to reproduce the transcriptomic analyses of the above research paper
 - R code is deposited in a single file: `script/Wheat_Circadian_Transcriptomic_Analysis.R`
 - There are several required R packages for this script, some are hosted by [CRAN](https://cran.r-project.org/web/packages/available_packages_by_name.html), others can be downloaded via [Bioconductor](https://www.bioconductor.org/)
-- All data files required for this script are included in `wheat_clock_senescence/data`
+- All data files required for this script are included in `data`
