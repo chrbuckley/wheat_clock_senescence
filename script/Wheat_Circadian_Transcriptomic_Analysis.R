@@ -11,7 +11,7 @@
 
 #####Loading BIO_CYCLE and MetaCycle data and filtering#####
 
-#setwd("~/Wheat_Circadian_Transcriptomic_Analysis/")
+#setwd("~/wheat_clock_senescence/data")
 
 #Required packages
 library(dplyr)
@@ -674,9 +674,6 @@ go_results_unchanged_period$raw.p.value = as.numeric(go_results_unchanged_period
 
 #PLOTTING PERIOD GO ENRICHMENTS
 #First calculate observed/expected and add groupings
-go_results_short_period$Observed.Expected = (go_results_short_period$Significant-go_results_short_period$Expected)/go_results_short_period$Expected
-go_results_long_period$Observed.Expected = (go_results_long_period$Significant-go_results_long_period$Expected)/go_results_long_period$Expected
-go_results_unchanged_period$Observed.Expected = (go_results_unchanged_period$Significant-go_results_unchanged_period$Expected)/go_results_unchanged_period$Expected
 go_results_short_period$Change = "Short"
 go_results_long_period$Change = "Long"
 go_results_unchanged_period$Change = "Unchanged"
@@ -686,7 +683,16 @@ go_period$Enrichment=NA
 
 #Curate top results lists to remove duplicate terms
 #Order of this might vary slightly from run to run
-top10_short = head(go_results_short_period$Term,20)[c(1:4,6:8,10:12)]
+
+top10_unchanged_per = head(go_results_unchanged_period$Term,20)[c(2,4,5,6,7,8,10,11,12,14)]
+positions_u=NULL
+for (i in 1:length(top10_unchanged_per)){
+  x=grep(noquote(paste('^',top10_unchanged_per[i],'$',sep="")), go_period$Term)
+  positions_u=c(positions_u,x)
+}
+go_period$Enrichment[positions_u]="Unchanged period-enriched"
+
+top10_short = head(go_results_short_period$Term,20)[c(1,2,3,4,6:8,10,11,12)]
 positions_s=NULL
 for (i in 1:length(top10_short)){
   x=grep(noquote(paste('^',top10_short[i],'$',sep="")), go_period$Term)
@@ -694,21 +700,13 @@ for (i in 1:length(top10_short)){
 }
 go_period$Enrichment[positions_s]="Short period-enriched"
 
-top10_long = head(go_results_long_period$Term,20)[c(1,3,4,5,6,7,9,11,12,14)]
+top10_long = head(go_results_long_period$Term,20)[c(1,3,4,6,7,9,10,11,13,14)]
 positions_l=NULL
 for (i in 1:length(top10_long)){
   x=grep(noquote(paste('^',top10_long[i],'$',sep="")), go_period$Term)
   positions_l=c(positions_l,x)
 }
 go_period$Enrichment[positions_l]="Long period-enriched"
-
-top10_unchanged_per = head(go_results_unchanged_period$Term,20)[c(1,2,3,4,6,7,8,10,11,12)]
-positions_u=NULL
-for (i in 1:length(top10_unchanged_per)){
-  x=grep(noquote(paste('^',top10_unchanged_per[i],'$',sep="")), go_period$Term)
-  positions_u=c(positions_u,x)
-}
-go_period$Enrichment[positions_u]="Unchanged period-enriched"
 
 #filter by these top terms
 go_period=na.omit(go_period)#remove rows without annotated enrichment
@@ -718,12 +716,12 @@ go_period$raw.p.value=as.numeric(go_period$raw.p.value)
 go_period$Change = factor(go_period$Change, levels=c("Short","Unchanged","Long"))
 go_period$Enrichment = factor(go_period$Enrichment, levels=c("Short period-enriched","Unchanged period-enriched","Long period-enriched"))
 
-ggplot(go_period, aes(x=Change, y=Term,size=ifelse(Observed.Expected==-1, NA, Observed.Expected), colour=-log(raw.p.value)))+
+plot=ggplot(go_period, aes(x=Change, y=Term,size=ifelse(log(Significant/Expected)<0, NA, log(Significant/Expected)), colour=-log(raw.p.value)))+
   facet_wrap(~Enrichment, nrow=3, scales="free_y")+
-  geom_point(alpha=0.75)+
+  geom_point(alpha=0.75,stroke=NA)+
   scale_x_discrete(labels=c("Short\n(n=4139)","Unchanged\n(n=2301)","Long\n(n=2153)"))+
   scale_color_gradientn(expression(paste("-log(",italic(p),")value")),colours=c("blue","blue","purple","red","red"),values=c(0,0.1,0.5,0.9,1))+
-  scale_size_continuous("(O-E)/E", range=c(0.5,8), breaks=c(1,5,10,25,50))+
+  scale_size_continuous("log(O/E)", range=c(0.5,9),breaks=c(0.5,1,2,4),limits=c(0,4))+
   labs(y="",x="\nPeriod change")+
   theme_bw()+
   theme(panel.background = element_blank(),axis.line = element_line(size = 0.5, colour = "black"), 
@@ -731,8 +729,8 @@ ggplot(go_period, aes(x=Change, y=Term,size=ifelse(Observed.Expected==-1, NA, Ob
         axis.text.x = element_text(size = 11, colour = "black"),
         axis.text.y = element_text(size = 10, colour = "black"), axis.title = element_text(size = 14), 
         legend.text = element_text(size=12), legend.title = element_text(size=14),
-        strip.background = element_rect(fill=NA,colour=NA), strip.text = element_text(size=11))
-
+        strip.background = element_rect(fill=NA,colour=NA), strip.text = element_text(size=11))+
+  guides(size = guide_legend(override.aes = list(fill = "black")))
 
 #Now provide example circadian rhythm changes of genes in the significantly enriched GO categories
 
@@ -1323,8 +1321,8 @@ ggplot(merged_nodes, aes(x=x_position,y=y_position, linewidth=combined_score,lin
 #Get all links
 #links_senescent=getLinkList(genie_senescent)
 
-#Keep top 1% of links for rigour
-#toplinks=head(links_senescent,n=(nrow(links_senescent)*0.01))
+#Keep top 0.5% of links for rigour
+#toplinks=head(links_senescent,n=(nrow(links_senescent)*0.005))
 #write.csv(toplinks, "GENIE3_sen_rhy_toplinks.csv", q=F,row.names=F)
 
 #Read in toplinks file
@@ -1332,13 +1330,25 @@ toplinks=read.csv("GENIE3_sen_rhy_toplinks.csv")
 
 #Keep links that are associated with DR TFs (i.e. the protein subnetwork)
 DR_links=subset(toplinks,regulatoryGene %in% tfs_dr_diffs$ID)
+length(unique(DR_links$targetGene))
+#There are 4063 unique targets. Is this more than expected by chance?
+permutation=NULL
+for (i in 1:10000){
+  subset=sample(diffs_df$ID,106)
+  links=subset(toplinks,regulatoryGene %in% subset)
+  permutation=c(length(unique(links$targetGene)),permutation)
+}
+stat=length(which(4063<permutation))
+#p
+stat/10000
+#Yes, highly significant. p=0.0021
 
 #Check circadian parameter changes of the target genes
 mean(diffs_df[diffs_df$ID %in% unique(DR_links$targetGene),]$phase_diff)
 mean(diffs_df$phase_diff)
 mean(diffs_df[diffs_df$ID %in% unique(DR_links$targetGene),]$period_diff)
 mean(diffs_df$period_diff)
-#Parameter changes are nearly identical to the global means 
+#Parameter changes are similar to the global means 
 
 #Plot these comparisons
 DR_links_df=diffs_df[diffs_df$ID %in% unique(DR_links$targetGene),]
@@ -1403,8 +1413,8 @@ g$Term =with(g, reorder(Term , Observed.Expected, mean , na.rm=T))
 ggplot(g,aes(x=log(Observed.Expected),y=Term,fill=-log(raw.p.value)))+
   geom_bar(stat="identity",width=0.15,colour="transparent")+
   geom_point(g,mapping=aes(log(Observed.Expected),Term,fill=-log(raw.p.value),size=Significant),pch=21,stroke=0,show.legend = T)+
-  scale_fill_gradientn(expression(paste("-log(",italic(p),")")),colours=c("#f7d7a6","#fcd69d","darkorange","red","red1"),values=c(0,0.15,0.4,0.75,1),limits=c(20,70),
-                       breaks=seq(20,70,10))+
+  scale_fill_gradientn(expression(paste("-log(",italic(p),")")),colours=c("#f7d7a6","#fcd69d","darkorange","red","red1"),values=c(0,0.15,0.4,0.75,1),limits=c(10,70),
+                       breaks=seq(10,70,20))+
   scale_size_continuous("Gene count",range=c(3,8),breaks=c(5,25,50,100))+
   labs(x="\nlog(Observed/Expected)",y="")+
   theme_bw()+
@@ -1722,6 +1732,64 @@ ggplot()+
   scale_x_continuous(limits=c(0.85,6.15))+
   theme(plot.background = element_blank(),axis.line = element_blank(),axis.title = element_blank(),
         axis.ticks = element_blank(),axis.text = element_blank(),panel.background =element_blank())
+
+#Finally, check the predicted GRN for each cluster
+#Do GO term enrichment for period categories
+
+#Get list of GRN links associated with the 59 clock transcripts
+links_clock_TF=subset(toplinks,regulatoryGene %in% clock$ID)
+links_clock_TF = merge(links_clock_TF, clock[,c(1,10)], by.x="regulatoryGene",by.y="ID")
+#Subset by cluster and do GO enrichment of each 'mini network'
+for (i in 1:6){
+  links_clock_TF_=filter(links_clock_TF,cluster == i)
+  tmp <- ifelse(go_terms$Gene.stable.ID %in% links_clock_TF_$targetGene, 1, 0)
+  genelist_dr=tmp
+  names(genelist_dr)=go_terms$Gene.stable.ID
+  GOdata_dr <- new("topGOdata",
+                   ontology = "BP",
+                   allGenes = genelist_dr,
+                   geneSelectionFun = function(x)(x == 1),
+                   annot = annFUN.gene2GO, gene2GO = gene2GO)
+  Fisher_dr <- runTest(GOdata_dr, algorithm = "classic", statistic = "fisher")
+  go_results_dr <- GenTable(GOdata_dr, raw.p.value = Fisher_dr, topNodes = length(Fisher_dr@score))
+  go_results_dr$raw.p.value = gsub("e", "E", go_results_dr$raw.p.value)
+  go_results_dr$raw.p.value = gsub("< ", "", go_results_dr$raw.p.value)
+  go_results_dr$raw.p.value = as.numeric(go_results_dr$raw.p.value)
+  go_results_dr$Observed.Expected = go_results_dr$Significant/go_results_dr$Expected
+  
+  assign(paste("go_results_clus",i,sep=""),go_results_dr)
+}
+
+#Combine the top terms for each cluster. Exclude Cluster 1 as the enrichments are very skewed by the small size of the GRN
+cluster_terms_=rbind(go_results_clus2[c(1,4,5,8,10),],go_results_clus3[c(1,3,7,9,11),],
+go_results_clus4[c(1,3,4,5,6),],go_results_clus5[c(1,3,5,6,7),],go_results_clus6[c(1,3,4,5,6),])
+
+cluster_terms=unique(cluster_terms_$Term)
+
+#Filter each cluster dataset for these terms, and annotate as which cluster
+clus2=mutate(subset(go_results_clus2, Term %in% cluster_terms),Cluster=2)
+clus3=mutate(subset(go_results_clus3, Term %in% cluster_terms),Cluster=3)
+clus4=mutate(subset(go_results_clus4, Term %in% cluster_terms),Cluster=4)
+clus5=mutate(subset(go_results_clus5, Term %in% cluster_terms),Cluster=5)
+clus6=mutate(subset(go_results_clus6, Term %in% cluster_terms),Cluster=6)
+cluster_GRN=rbind(clus2,clus3,clus4,clus5,clus6)
+#Order by cluster 6 to better see the trends
+cluster_GRN$Term=factor(cluster_GRN$Term, levels=c(clus6$Term[25:1]))
+ggplot(cluster_GRN, aes(x=Cluster, y=Term,size=ifelse(log(Observed.Expected)==-1, NA, log(Observed.Expected)), fill=-log(raw.p.value)))+
+  geom_point(alpha=0.75,pch=21,stroke=NA)+
+  scale_fill_gradientn(expression(paste("-log(",italic(p),")value")),colours=c("blue","purple","red","red"),values=c(0,0.3,0.9,1))+
+  scale_size_continuous("log(O/E)",breaks=c(0.5,1,2,4,8),range=c(1.5,10))+
+  labs(y="",x="Transcript cluster\n")+
+  scale_x_continuous(breaks=c(1:6),position="top")+
+  theme_bw()+
+  theme(panel.background = element_blank(),axis.line = element_line(size = 0.5, colour = "black"),axis.line.x=element_blank(),
+        axis.ticks = element_line(colour="NA"), axis.ticks.length.x = unit(10,"pt"),
+        axis.text.x = element_text(size = 11, colour = "black"),panel.border = element_blank(), panel.grid = element_blank(),
+        axis.text.y = element_text(size = 10, colour = "black"), axis.title = element_text(size = 11), 
+        legend.text = element_text(size=10), legend.title = element_text(size=11),
+        strip.background = element_rect(fill=NA,colour=NA), strip.text = element_text(size=11),panel.grid.minor = element_line(colour="grey"))+
+  guides(size = guide_legend(override.aes = list(fill = "black")))
+
 
 #Expression plots for all putative clock genes
 
