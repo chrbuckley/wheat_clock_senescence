@@ -2,7 +2,7 @@
 
 Code and data repository for computational analysis of wheat senescence circadian transcriptomic data
 
-Link to article: [Buckley et al., 2024](https://doi.org/10.1101/2024.02.19.580927)
+Link to *New Phytologist* article: [Buckley et al., 2024](https://doi.org/10.1111/nph.70565)
 
 ## Code author
 Chris Buckley ([ORCID: 0000-0002-4095-2300](https://orcid.org/my-orcid?orcid=0000-0002-4095-2300))
